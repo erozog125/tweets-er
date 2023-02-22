@@ -20,18 +20,18 @@ function App() {
   }
 
   useEffect(() => {
-      count >= 10 ? setStyles('max'):setStyles('minor')     
+      count >= 10 ? setStyles('max'): setStyles('min')     
     },[count])
   
-  // useEffect(() => {
+  // useEffect(()=>{
   //   if (count >= 10) {
+  //     console.log('True')
   //     setStyles('max')
-  //     console.log('true');
   //   } else {
   //     setStyles('minor')
-  //     console.log('false');
+  //     console.log('false')
   //   }
-  // }, [count])
+  // },[count])
   
 
   return (
