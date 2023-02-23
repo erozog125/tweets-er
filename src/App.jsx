@@ -1,6 +1,8 @@
 import { useState,useEffect } from "react"
 import { ContainerTweet } from "./components/ContainerTweet/ContainerTweet"
+import { Tweet } from "./components/Tweet/Tweet";
 import { UseState } from "./components/UseState/UseState"
+
 
 function App() {
   
@@ -37,15 +39,13 @@ function App() {
   return (
     <div className="App">
       <h1>Generador de Tweets</h1>
-      <ContainerTweet 
-        contain = {<UseState
-          counter = {count}
-          event1={handleAdd}
-          event2={handleSubtract}
-          event3={handleReset}
-          styleNumber = {styles}
-        />}
-      />      
+      <ContainerTweet contain = {<Tweet />} />
+      <h3>Aquí se verán tus tweets archivados</h3>
+      <ul>
+        <li>Tweet 1</li>
+        <li>Tweet 2</li>
+        <li>Tweet 3</li>        
+      </ul>
     </div>
   )
 }
