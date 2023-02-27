@@ -52,6 +52,7 @@ h1 {
   margin: 1rem;
   padding: 1rem;
   background-color: #004c98;
+  word-break: break-all;
 }
 
 .minor {
