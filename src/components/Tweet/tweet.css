@@ -1,0 +1,46 @@
+h3 {
+  color: #ffff00;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+hr{
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  width: 90%;
+  height:15rem;
+  border-radius: 15px;
+  background-color: rgb(10, 11, 44);
+  color: #f0f8ff;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.buttons {
+  width: 80%;
+  height: 5rem;
+  display: flex;  
+  justify-content: center;
+}
+
+p {
+  color: #0693d9;
+}
+
+.counter {
+  align-self: flex-end;
+  padding-right: 1rem;
+  color: greenyellow;
+}
+
+.btn-tweet {
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 0.8rem;
+  background-color: #0693d9;
+  box-shadow: -4px -4px 0 ;
+}

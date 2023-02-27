@@ -40,6 +40,20 @@ h1 {
   text-shadow: 0 0 15px #ffff00;
 }
 
+.item-tweet {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  list-style: none;
+  width: 20rem;
+  height: auto;
+  border: groove 5px #03034d;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #004c98;
+}
+
 .minor {
   color: #ffff00;
   font-size: 5rem;
@@ -73,7 +87,46 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-li {
-  color: #fff;
-  font-size: 2rem;
+.btn-clear {
+  width: 12rem;
+  height: 2.5rem;
+  background-color: #65b0fb;
+  color: #eaebf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.btn-clear:hover {
+  color: violet;
+  background-color: #03034d;
+  box-shadow: 0 0 5px violet;
+  font-weight: 800;
+}
+
+.counter {
+  color: #1dd91d;
+  font-size: 1rem;
+}
+
+.counter-min {
+  color: #de0808;
+  font-weight: 900;
+  padding: 1rem;
+  align-self: flex-end;  
+}
+
+span {
+  width: 90%;
+  height: 4rem;  
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;  
+  flex-wrap: wrap;
+  color: #e3e3f0;
+  font-size: 1rem;
+  font-weight: 800;  
+  word-break: break-all;
+}
+
+
